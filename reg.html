@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            float:  left;
+            margin-left: 30%;
+            margin-top: 10%; 
+            font-weight: 700px;
+            font-size: 22px;
+        }
+        input{
+             width: 90%;
+             margin: 8% auto;
+             margin-bottom: 8%;
+             border: none;
+             outline: none;
+             background: transparent;
+             color: white;
+             border-bottom: 1px solid rgba(242, 243, 235, 0.999);
+             opacity: .8;
+             font-size: 22px;
+          }
+          label{
+            color: black;
+            padding: 10px 30px;
+            border-radius: 30px;
+          }
+         
+    </style>
+    <link rel="stylesheet" href="./frame.html">
+
+</head>
+<body style="background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000); background-repeat: no-repeat; height: 600px; width: 600px;">
+   
+    <form  action="/register" method="post">
+    <label style="font-size: 20px;"><b>SIGN IN</b></label>
+    
+    <input type="username"name="username"  placeholder=" Email or Phone number " required><br><br><br>
+    <label style="font-size: 20px;"><b>PASSWORD:</b></label><br>
+        <input type="password" name="password" placeholder="strong name"required><br><br>
+        <input type="submit" value="submit">
+        </form>
+</body>
+</html>
+
